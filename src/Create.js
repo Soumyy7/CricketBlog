@@ -14,7 +14,7 @@ const Create = () => {
 
     setIsPending(true);
 
-    fetch("https://blogjson-j9ts.onrender.com/blogs", {
+    fetch("https://blogjson-j9ts.onrender.com/blogs/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),
