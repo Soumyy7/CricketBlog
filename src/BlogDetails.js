@@ -7,7 +7,7 @@ const BlogDetails = () => {
     const navigate = useNavigate();
    
     const handleClick = () => {
-        fetch('https://blogjson-j9ts.onrender.com/blogs' + id, {
+        fetch('https://blogjson-j9ts.onrender.com/blogs' + blog.id, {
             method: 'DELETE'
         }).then(() => {
             navigate('/');
