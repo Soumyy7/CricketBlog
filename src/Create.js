@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Create = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-  const [author, setAuthor] = useState("mario");
+  const [author, setAuthor] = useState("");
   const [isPending, setIsPending] = useState(false);
   const navigate = useNavigate();
 
